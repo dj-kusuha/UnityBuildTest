@@ -6,6 +6,6 @@ public sealed class Rotate : MonoBehaviour
 
     private void Update()
     {
-        transform.Rotate(_rotateEulers, Space.World);
+        transform.Rotate(_rotateEulers * 2, Space.World);
     }
 }
